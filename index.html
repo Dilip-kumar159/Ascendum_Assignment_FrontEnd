@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Added google fonts-api -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- favicon link -->
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico">
+
+
+    <title>bbconncloud.nordson.com/register</title>
+    
+</head>
+<body id="body_style">
+
+    <div class="empty">
+
+        <div class="background_img">
+            <!-- nav bar -->
+            <nav>
+                <div class="navbar_nordson">
+
+                </div>
+            </nav>
+       
+    <div class="img_div">
+        <img src="./Assets/nordson_white_logo.png" 
+             alt="Nordson log"
+             class="nordson_logo_img">
+    </div>
+
+    <div class="row">
+        <div class="brand_logo">
+            <img src="./Assets/BBconn Cloud logo and font.svg"
+                 alt="BBconn Cloud logo and font"
+                 class="brand_logo_img">
+        </div>
+    </div>
+
+
+    <!-- form creation-->
+    <div class="form_section_div">
+        <form name="form1">
+            <div class="row" id="register_input">
+                <div class="login_section">
+                <div class="main_section">
+                    <section class="center">
+                        <h6 class="heading"> Welcome to Nordson </h6>
+                        <span class="span_inline"> We just need a few details to get you up and running. </span>
+                    </section>
+
+                    <div class="sub_section">
+                        <div>
+                            <div class="margin_top_section">
+                                <fieldset class="text_above">
+                                    <legend> First Name <sup>*</sup> </legend>
+                                    <input type="text" class="form_control" required>
+                                </fieldset>
+                                <div class="invalid"> Full name is required! </div>
+                            </div>
+                        </div>
+
+                        <div class="margin_top_section">
+                            <fieldset class="text_above">
+                                <legend> Company Name <sup>*</sup> </legend>
+                                <input type="text" class="form_control" required>
+                            </fieldset>
+                            <div class="invalid"> Company name is required! </div>
+                        </div>
+
+                        <div class="select_div">
+                            <fieldset class="text_above">
+                                <legend> Company Type <sup>*</sup> </legend>
+                                <select name="company" id="select_section">
+                                    <option value="OEM">OEM</option>
+                                    <option value="End User">End User</option>
+                                    <option value="Nordson">Nordson</option>
+                                  </select>
+                                
+                            </fieldset>
+                            <div class="invalid"> Company Type is required! </div>
+                        </div>
+
+                        <div class="margin_top_section">
+                            <fieldset class="text_above">
+                                <legend> Address <sup>*</sup> </legend>
+                                <input type="text" class="form_control" required>
+                            </fieldset>
+                            <div class="invalid"> Address is required! </div>
+                        </div>
+                        
+                        <div class="select_div">
+                            <fieldset class="text_above">
+                                <legend> Country <sup>*</sup> </legend>
+                                <select name="country" id="select_section">
+                                    <option value="India">India</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="USA">USA</option>
+                                  </select>
+                                
+                            </fieldset>
+                            <div class="invalid"> Country is required! </div>
+                        </div>
+
+                        <div class="margin_top_section">
+                            <fieldset class="text_above">
+                                <legend> Plant </legend>
+                                <input type="text" class="form_control" required>
+                            </fieldset>
+                            <div class="invalid"> Plant is required! </div>
+                        </div>
+
+                        <div class="margin_top_section">
+                            <fieldset class="text_above">
+                                <legend> Phone Number <sup>*</sup> </legend>
+                                <input type="tel" class="form_control" value="+91" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            </fieldset>
+                            <div class="invalid"> Contact is required! </div>
+                        </div>
+
+                        <div class="margin_top_13">
+                            <button type="submit" class="btn_continue" disabled>
+                                 CONTINUE
+                            </button>
+                        </div>
+                        
+                        <p class="btn_below_text"> Next Step: Model Details </p>
+
+                        <div class="margin_minus">
+                            <p> <span> Already a user? </span> 
+                                <a href="#" class="a_sign"> 
+                                    Sign In 
+                                </a>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Footer Section -->
+
+    <footer class="footer_div">
+        <div class="com_copyright"> © 2024 Nordson Corporation </div>
+            <div>
+                <ul class="foot_links">
+                    <li> <a href="#"> Privacy Policy</a> <span> | </span> </li>
+                    <li> <a href="#"> Terms of Service</a> <span> | </span> </li>
+                    <li> <a href="#"> Cookies</a> <span> | </span> </li>
+                    <li> <a href="#"> Contact Us</a></li>
+                </ul>
+            </div>
+    </footer>
+</div>
+    <!-- <div class="page-footer">
+        <div class="footer-width">
+            <span class="copyright">© 2024 Nordson Corporation</span>
+            <div class="right"> 
+                <div class="right footer-text cursor-pointer pad-responsive-signup">Contact Us</div>
+                <span class="right display-none-responsive">|</span>
+                <div class="right footer-text pad-responsive-signup pad-tp-15-responsive">
+                    <a href="#"target="_blank">Cookies </a>
+                </div>
+                <span class="right display-none-responsive">|</span>
+                <div class="right footer-text pad-responsive-signup pad-tp-15-responsive cursor-pointer"> Terms of Service</div>
+                <span class="right display-none-responsive">|</span>
+                <div class="right footer-text pad-responsive-signup pad-tp-15-responsive">
+                    <a href="#"  target="_blank">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</div>
+
+    <script src="index.js></script>
+</body>
+
+</html>
